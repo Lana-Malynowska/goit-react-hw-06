@@ -1,0 +1,22 @@
+.searchbox input {
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  width: 25rem;
+  height: 2.5rem;
+}
+
+.searchbox input:hover {
+  border-color: #646cff;
+}
+
+.searchbox input:focus {
+  outline: none;
+  border-color: #646cff;
+  box-shadow: 0 0 6px rgba(30, 144, 255, 0.6);
+}
+
+@media (prefers-color-scheme: light) {
+  .searchbox input {
+    border: 1px solid #213547;
+  }
+}
