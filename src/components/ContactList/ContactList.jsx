@@ -19,7 +19,7 @@ const ContactList = () => {
           </li>
         ))
       ) : (
-        <p>No contacts found</p>
+        <strong>Your contacts list is feeling a little lonely...</strong>
       )}
     </ul>
   );
