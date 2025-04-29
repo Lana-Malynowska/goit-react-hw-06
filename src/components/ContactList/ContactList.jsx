@@ -19,7 +19,7 @@ const ContactList = () => {
           </li>
         ))
       ) : (
-        <strong>Your contacts list is feeling a little lonely...</strong>
+        <strong>Looks like your contact list is feeling a bit lonely...</strong>
       )}
     </ul>
   );
